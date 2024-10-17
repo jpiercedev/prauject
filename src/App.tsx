@@ -11,9 +11,9 @@ interface Project {
   status: 'In Progress' | 'Completed' | 'On Hold';
 }
 
-interface OnboardingProps {
-  onSubmit: (name: string) => void; // Correctly typed to expect a string and return void
-}
+// interface OnboardingProps {
+//  onSubmit: (name: string) => void; // Correctly typed to expect a string and return void
+// }
 
 const App = () => {
   const [projects, setProjects] = useState<Project[]>([]);
