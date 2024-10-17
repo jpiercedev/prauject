@@ -12,7 +12,7 @@ interface Project {
 }
 
 interface OnboardingProps {
-  onSubmit: (name: strin`g) => void; // Correctly typed to expect a string and return void
+  onSubmit: (name: string) => void; // Correctly typed to expect a string and return void
 }
 
 const App = () => {
